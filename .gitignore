@@ -7,3 +7,6 @@ gradle
 *.iws
 *.iml
 *.ipr
+
+/target/
+target/

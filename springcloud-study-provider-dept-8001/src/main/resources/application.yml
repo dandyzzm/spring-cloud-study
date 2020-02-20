@@ -11,7 +11,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/study01?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&verifyServerCertificate=false&useSSL=false
     username: root
-    password: root
+    password: 123456
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 
@@ -35,8 +35,8 @@ spring:
 
 #Mybatis配置
 mybatis:
-  mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.gxs.springcloud.entities
+  mapper-locations: classpath:mapper/*.xml  #Mybatis配置文件所在路径
+  type-aliases-package: com.gxs.springcloud.entities  #所有Entity别名类所在包
   configuration:
     map-underscore-to-camel-case: true #开启驼峰命名
     cache-enabled: true #开启二级缓存

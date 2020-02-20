@@ -14,7 +14,7 @@ public class ConfigClientRest {
 
     @Value("${spring.application.name}")
     private String applicationName;
-    @Value("${eureka.client.server-url.defaultZone}")
+    @Value("${eureka.client.service-url.defaultZone}")
     private String eurekaServers;
     @Value("${server.port}")
     private String port;

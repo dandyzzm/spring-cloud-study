@@ -8,5 +8,5 @@ gradle
 *.iml
 *.ipr
 
-/target/
-target/
+*/target/
+*target/
